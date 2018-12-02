@@ -1,0 +1,79 @@
+html {
+    background: aquamarine;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+.container {
+    width: 960px;
+    height: 400px;
+    padding-right:50px;
+    padding-left: 50px;
+}
+
+.box{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    background: white;
+}
+
+
+.left{
+    float: left;
+}
+
+.article{
+    float: left;
+    margin: 5px;
+    height:90%;
+    width: 65%;
+    background: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.title{
+    width: 95%;
+    margin: 2%;
+    text-align: center;
+    height: 45%;
+    padding-top:48px;
+    background: aquamarine;
+}
+
+.paragraph{
+    width: 95%;
+    height:45%;
+    margin: 2%;
+    padding: 5px;
+    background: aquamarine;
+}
+
+.aside{
+    float: left;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    height:90%;
+    width: 33%;
+    background: white;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    background: white;
+}
